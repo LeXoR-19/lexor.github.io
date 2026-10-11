@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прайс — Два бита</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container header-inner">
+        <a href="index.html" class="logo">
+            <img src="images/logo.jpg" alt="Логотип">
+            Два бита
+        </a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="burger">☰</label>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О студии</a></li>
+                <li><a href="games.html">Игры</a></li>
+                <li><a href="price.html" class="active">Прайс</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="reviews.html">Отзывы</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <div class="container">
+        <h1>Прайс-лист</h1>
+        <p>Цены на издания наших игр и дополнительные материалы. Все цены указаны в рублях.</p>
+
+        <table style="margin-top: 30px;">
+            <caption style="text-align: left; padding: 12px 0; color: #6e6b7a;">
+                Издания игры «Тихий город»
+            </caption>
+            <thead>
+                <tr>
+                    <th>Издание</th>
+                    <th>Что входит</th>
+                    <th>Цена</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Обычное</td>
+                    <td>Базовая игра</td>
+                    <td class="amount">990 ₽</td>
+                </tr>
+                <tr>
+                    <td>Расширенное</td>
+                    <td>Игра + цифровой артбук</td>
+                    <td class="amount">1 490 ₽</td>
+                </tr>
+                <tr>
+                    <td>Коллекционное</td>
+                    <td>Игра + артбук + саундтрек</td>
+                    <td class="amount">2 490 ₽</td>
+                </tr>
+                <tr class="discount">
+                    <td>Предзаказ</td>
+                    <td>Любое издание до релиза</td>
+                    <td class="amount">−20% от цены</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 style="margin-top: 40px;">Дополнительно</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Материал</th>
+                    <th>Формат</th>
+                    <th>Цена</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Цифровой артбук</td>
+                    <td>PDF, 120 страниц</td>
+                    <td class="amount">390 ₽</td>
+                </tr>
+                <tr>
+                    <td>Саундтрек</td>
+                    <td>MP3 + FLAC</td>
+                    <td class="amount">490 ₽</td>
+                </tr>
+                <tr>
+                    <td>Набор обоев</td>
+                    <td>4K, 12 штук</td>
+                    <td class="amount">190 ₽</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2025 Студия «Два бита» · Санкт-Петербург</p>
+        <p>
+            <a href="about.html">О студии</a>
+            <a href="games.html">Игры</a>
+            <a href="price.html">Прайс</a>
+            <a href="contacts.html">Контакты</a>
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>
